@@ -1,0 +1,5 @@
+- name: Create dev directories
+  file:
+    path: "~/dev/{{ item }}"
+    state: directory
+  with_items: "{{ directories }}"

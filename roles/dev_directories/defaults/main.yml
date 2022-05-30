@@ -1,0 +1,21 @@
+directories:
+  - assets/books
+  - assets/crd
+  - assets/fonts
+  - assets/music
+  - assets/notes
+  - assets/projects
+  - assets/translations
+  - challenges
+  - lrn
+  - music/lrn
+  - music/projects
+  - music/samples
+  - playbooks
+  - projects
+  - shell
+  - src/apk
+  - src/dmg
+  - src/pkg
+  - src/src
+  - training/ruby
