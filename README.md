@@ -17,3 +17,6 @@ Create `~/dev` directory structure
 
 + [postgresql](roles/postgresql)
 Create PostgreSQL container
+
++ [mysql](roles/mysql)
+Create MySQL container

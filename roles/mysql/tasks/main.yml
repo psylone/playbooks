@@ -1,4 +1,4 @@
-- name: Create PostgreSQL container
+- name: Create MySQL container
   docker_container:
     name: '{{ container_name }}'
     image: '{{ image }}'
@@ -6,4 +6,4 @@
     ports: '{{ ports }}'
     volumes: '{{ volumes }}'
     env:
-      POSTGRES_PASSWORD: '{{ postgres_password }}'
+      MYSQL_ALLOW_EMPTY_PASSWORD: "1"

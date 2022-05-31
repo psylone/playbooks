@@ -1,4 +1,4 @@
-name: pg-11
+container_name: pg-11
 image: postgis/postgis:11-3.1
 postgres_password: postgres
 ports:
