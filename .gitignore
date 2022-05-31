@@ -1,0 +1,5 @@
+# Ignore local playbooks
+*.local.yml
+
+# Ignore configuration files
+etc
