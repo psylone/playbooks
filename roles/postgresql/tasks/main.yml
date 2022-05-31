@@ -1,0 +1,9 @@
+- name: Create PostgreSQL container
+  docker_container:
+    name: '{{ name }}'
+    image: '{{ image }}'
+    state: present
+    ports: '{{ ports }}'
+    volumes: '{{ volumes }}'
+    env:
+      POSTGRES_PASSWORD: '{{ postgres_password }}'

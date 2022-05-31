@@ -1,0 +1,7 @@
+name: pg-11
+image: postgis/postgis:11-3.1
+postgres_password: postgres
+ports:
+  - 5432:5432
+volumes:
+  - pg-11:/var/lib/postgresql/data
