@@ -13,7 +13,6 @@ directories:
   - music/samples
   - playbooks
   - projects
-  - shell
   - src/apk
   - src/dmg
   - src/pkg

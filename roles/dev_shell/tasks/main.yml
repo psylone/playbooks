@@ -1,0 +1,9 @@
+- name: Copy shell files
+  copy:
+    src: shell/
+    dest: ~/dev/shell
+
+- name: Copy .zshrc
+  copy:
+    src: .zshrc
+    dest: ~/.zshrc
