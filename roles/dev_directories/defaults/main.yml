@@ -4,8 +4,8 @@ directories:
   - assets/fonts
   - assets/music
   - assets/notes
+  - assets/notes/translations
   - assets/projects
-  - assets/translations
   - challenges
   - lrn
   - music/lrn
