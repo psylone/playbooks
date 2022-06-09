@@ -8,3 +8,6 @@ eval "$(starship init zsh)"
 for file in ~/dev/shell/*.sh; do
   . "$file"
 done
+
+# Set JAVA_HOME
+. ~/.asdf/plugins/java/set-java-home.zsh
