@@ -23,3 +23,6 @@ Create PostgreSQL container
 
 + [mysql](roles/mysql)
 Create MySQL container
+
++ [swagger-ui](roles/swagger-ui)
+Create Swagger UI container

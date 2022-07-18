@@ -1,0 +1,6 @@
+- name: Create Swagger UI container
+  docker_container:
+    name: '{{ container_name }}'
+    image: '{{ image }}'
+    state: present
+    ports: '{{ ports }}'
