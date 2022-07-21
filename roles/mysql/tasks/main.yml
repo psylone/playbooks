@@ -5,5 +5,6 @@
     state: present
     ports: '{{ ports }}'
     volumes: '{{ volumes }}'
+    restart_policy: unless-stopped
     env:
       MYSQL_ALLOW_EMPTY_PASSWORD: "1"

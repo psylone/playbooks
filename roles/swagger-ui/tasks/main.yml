@@ -4,3 +4,4 @@
     image: '{{ image }}'
     state: present
     ports: '{{ ports }}'
+    restart_policy: unless-stopped

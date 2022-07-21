@@ -12,17 +12,4 @@ Create Docker containers
 
 ## Roles
 
-+ [dev_directories](roles/dev_directories)
-Create `~/dev` directory structure
-
-+ [dev_shell](roles/dev_shell)
-Shell files
-
-+ [postgresql](roles/postgresql)
-Create PostgreSQL container
-
-+ [mysql](roles/mysql)
-Create MySQL container
-
-+ [swagger-ui](roles/swagger-ui)
-Create Swagger UI container
+All available roles can be found in [roles](roles) directory.
