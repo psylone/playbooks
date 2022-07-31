@@ -4,6 +4,7 @@ directories:
   - assets/fonts
   - assets/music
   - assets/notes
+  - assets/notes/books
   - assets/notes/translations
   - assets/projects
   - challenges

@@ -2,7 +2,7 @@
   connection: local
   gather_facts: no
   roles:
-    - postgresql
-    - mysql
-    - swagger-ui
-    - redis
+    - docker/postgresql
+    - docker/mysql
+    - docker/swagger-ui
+    - docker/redis
