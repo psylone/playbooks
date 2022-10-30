@@ -1,5 +1,8 @@
 # Ignore local playbooks
 *.local.yml
 
+# Ignore local roles
+roles/local
+
 # Ignore configuration files
 etc
