@@ -4,5 +4,4 @@
   roles:
     - docker/postgresql
     - docker/mysql
-    - docker/swagger-ui
     - docker/redis
