@@ -1,7 +1,10 @@
-- name: Create Swagger UI container
+- name: Create ZooKeeper container
   docker_container:
     name: '{{ container_name }}'
     image: '{{ image }}'
     state: present
     ports: '{{ ports }}'
+    volumes: '{{ volumes }}'
     restart_policy: unless-stopped
+    env:
+      ALLOW_ANONYMOUS_LOGIN: 'yes'

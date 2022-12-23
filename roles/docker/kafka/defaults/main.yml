@@ -1,0 +1,6 @@
+container_name: kafka
+image: docker.io/bitnami/kafka:3.3
+ports:
+  - 9092:9092
+volumes:
+  - kafka_data:/bitnami
