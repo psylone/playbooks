@@ -9,5 +9,8 @@ for file in ~/dev/shell/*.sh; do
   . "$file"
 done
 
+# SSH
+load_ssh_keys
+
 # Set JAVA_HOME
 . ~/.asdf/plugins/java/set-java-home.zsh
