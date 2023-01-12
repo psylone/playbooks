@@ -7,3 +7,8 @@
   copy:
     src: .zshrc
     dest: ~/.zshrc
+
+- name: Copy .asdfrc
+  copy:
+    src: .asdfrc
+    dest: ~/.asdfrc
