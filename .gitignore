@@ -1,8 +1,5 @@
-# Ignore local shell scripts
-*.local.sh
+# Ignore local directories
+local
 
-# Ignore local playbooks
-*.local.yml
-
-# Ignore local roles
-roles/local
+# Ignore local files
+*.local.*
