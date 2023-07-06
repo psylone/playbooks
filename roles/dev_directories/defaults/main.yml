@@ -2,12 +2,8 @@ directories:
   - assets/books
   - assets/crd
   - assets/fonts
-  - assets/music
-  - assets/notes
-  - assets/notes/books
-  - assets/notes/translations
   - assets/projects
-  - challenges
+  - assignments
   - lrn
   - music/lrn
   - music/projects
