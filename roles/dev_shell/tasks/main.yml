@@ -12,3 +12,8 @@
   copy:
     src: .asdfrc
     dest: ~/.asdfrc
+
+- name: Copy starship.toml
+  copy:
+    src: starship.toml
+    dest: ~/.config/starship.toml

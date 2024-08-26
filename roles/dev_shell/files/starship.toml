@@ -1,0 +1,34 @@
+add_newline = false
+
+format = """\
+  $username\
+  $hostname\
+  $directory\
+  $git_branch\
+  $git_commit\
+  $git_state\
+  $python\
+  $line_break\
+  $jobs\
+  $character\
+  """
+
+[directory]
+style = "032"
+truncation_length = 0
+
+[git_branch]
+style = "098"
+
+[git_commit]
+style = "028"
+only_detached = false
+
+[git_state]
+style = "yellow"
+
+[python]
+style = "041"
+
+[jobs]
+style = "blue"
