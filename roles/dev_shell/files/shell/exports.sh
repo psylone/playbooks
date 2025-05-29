@@ -1,3 +1,6 @@
+# asdf
+export KERL_BUILD_DOCS=yes
+
 # BEAM
 export ERL_AFLAGS="-kernel shell_history enabled"
 
