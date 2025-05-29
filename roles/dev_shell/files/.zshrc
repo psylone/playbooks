@@ -1,5 +1,5 @@
-# Install asdf integration (https://asdf-vm.com/)
-. /opt/homebrew/opt/asdf/libexec/asdf.sh
+# asdf version manager
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 
 # Load Starship prompt (https://starship.rs/)
 eval "$(starship init zsh)"
